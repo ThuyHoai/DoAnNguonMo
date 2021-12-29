@@ -96,8 +96,8 @@ public class Danhmuc extends AppCompatActivity {
     private void addControls() {
         btn_Them = findViewById(R.id.btn_Them);
         btn_SuaDM = findViewById(R.id.btn_SuaDM);
-        edtTenDM = findViewById(R.id.edtMaDM);
-        edtMaDM = findViewById(R.id.edtTenDM);
+        edtMaDM = findViewById(R.id.edtMaDM);
+        edtTenDM = findViewById(R.id.edtTenDM);
         lvTS = findViewById(R.id.lvTS);
         adapterDM = new ArrayAdapter<>(
                 Danhmuc.this,
