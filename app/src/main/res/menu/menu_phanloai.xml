@@ -2,8 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menuList"
-        android:title="@string/product"/>
+        android:title="Sản phẩm"/>
     <item
         android:id="@+id/menuDel"
-        android:title="@string/delete"/>
+        android:title="Delete"/>
 </menu>

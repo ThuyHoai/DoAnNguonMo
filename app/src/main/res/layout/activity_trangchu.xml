@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/lvtrangchu"/>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabThem"
         android:layout_width="75dp"
@@ -17,7 +18,7 @@
         android:layout_gravity="end|bottom"
         android:layout_margin="35dp"
         android:backgroundTint="@color/white"
-        android:src="Thêm"
+        android:src="@drawable/icons_them"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:maxImageSize="90dp"
