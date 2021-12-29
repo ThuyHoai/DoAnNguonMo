@@ -14,10 +14,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import vn.stu.edu.ThuyHoai.ChiTiet;
-import vn.stu.edu.ThuyHoai.R;
-import vn.stu.edu.ThuyHoai.Sua;
-import vn.stu.edu.ThuyHoai.model.trasua;
+import vn.edu.stu.doannguonmo.ChiTiet;
+import vn.edu.stu.doannguonmo.R;
+import vn.edu.stu.doannguonmo.Sua;
+import vn.edu.stu.doannguonmo.model.trasua;
 
 public class listviewadapter extends BaseAdapter {
     public listviewadapter(Context context, ArrayList<trasua> traSua, int layout) {

@@ -24,6 +24,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
 
+import vn.edu.stu.doannguonmo.adapter.listviewadapter;
+import vn.edu.stu.doannguonmo.model.trasua;
+
 public class Trangchu extends AppCompatActivity {
     final String DB_PATH_SUFFIX = "/databases/";
     final String DB_NAME = "dbTS.sqlite";
@@ -169,10 +172,10 @@ public class Trangchu extends AppCompatActivity {
                 Intent Listview= new Intent(Trangchu.this,Trangchu.class);
                 startActivity(Listview);
                 break;
-            case R.id.menuDanhMuc:
-                Intent danhmuc= new Intent(Trangchu.this,DanhMuc.class);
-                startActivity(danhmuc);
-                break;
+//            case R.id.menuDanhMuc:
+//                Intent danhmuc= new Intent(Trangchu.this,DanhMuc.class);
+//                startActivity(danhmuc);
+//                break;
             case R.id.menuExit:
                 finishAffinity();
                 System.exit(0);

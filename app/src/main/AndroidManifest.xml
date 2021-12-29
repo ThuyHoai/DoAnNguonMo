@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DoAnNguonMo">
         <activity
+            android:name=".ThemSP"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTiet"
+            android:exported="false" />
+        <activity
+            android:name=".Sua"
+            android:exported="false" />
+        <activity
             android:name=".Trangchu"
             android:exported="false" />
         <activity
