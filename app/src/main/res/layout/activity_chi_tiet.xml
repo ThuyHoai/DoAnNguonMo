@@ -6,4 +6,119 @@
     android:layout_height="match_parent"
     tools:context=".ChiTiet">
 
+    <TextView
+        android:id="@+id/txt_SL"
+        android:layout_width="146dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="số lượng"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.713"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_PL" />
+
+    <TextView
+        android:id="@+id/txt_Gia"
+        android:layout_width="129dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="giá"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Ten" />
+
+    <ImageView
+        android:id="@+id/img_HA"
+        android:layout_width="144dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="420dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icon_upload" />
+
+    <TextView
+        android:id="@+id/textVPL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="36dp"
+        android:text="Phân loại"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textVGia" />
+
+    <TextView
+        android:id="@+id/txt_Ten"
+        android:layout_width="132dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="224dp"
+        android:ems="10"
+        android:hint="tên"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_PL"
+        android:layout_width="129dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="phân loại"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Gia" />
+
+    <TextView
+        android:id="@+id/textVSL"
+        android:layout_width="121dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="40dp"
+        android:text="Số lượng"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textVPL" />
+
+    <TextView
+        android:id="@+id/textVGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="28dp"
+        android:text="Giá"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textVTen" />
+
+    <TextView
+        android:id="@+id/textVTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="220dp"
+        android:text="Tên"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
