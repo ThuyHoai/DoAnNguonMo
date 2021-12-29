@@ -96,8 +96,8 @@ public class Danhmuc extends AppCompatActivity {
     private void addControls() {
         btn_Them = findViewById(R.id.btn_Them);
         btn_SuaDM = findViewById(R.id.btn_SuaDM);
-        edtMaDM = findViewById(R.id.edtMaDM);
-        edtTenDM = findViewById(R.id.edtTenDM);
+        edtTenDM = findViewById(R.id.edtMaDM);
+        edtMaDM = findViewById(R.id.edtTenDM);
         lvTS = findViewById(R.id.lvTS);
         adapterDM = new ArrayAdapter<>(
                 Danhmuc.this,
@@ -319,7 +319,5 @@ public class Danhmuc extends AppCompatActivity {
             AlertDialog dialog = builder.create();
             dialog.show();
         }
-    }
-}
     }
 }
