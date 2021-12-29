@@ -81,7 +81,7 @@ public class ThemSP extends AppCompatActivity {
                 String gia=txt_gia.getText().toString();
                 String soluong =txt_soluong.getText().toString();
                 String phanloai = txt_Phanloai.getText().toString();
-                trasua ts1=new trasua(1,ten,"phanloai",imageViewTOByte(imghinh),gia, soluong);
+                trasua ts1=new trasua(1,ten,phanloai,imageViewTOByte(imghinh),gia, soluong);
                 Toast.makeText(ThemSP.this, "đã thêm sản phẩm", Toast.LENGTH_SHORT).show();
                 docDLDB(ts1);
             }
